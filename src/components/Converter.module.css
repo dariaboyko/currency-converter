@@ -1,0 +1,39 @@
+.wrapper{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.box{
+    position: relative;
+}
+.currencyInput{
+    width: 75%;
+    height: 40px;
+    border:0;
+    font-size: 17px;
+    color: rgb(18, 18, 18);
+    padding: 0 0 0 4px;
+}
+.currencyInput:focus{
+  outline: 2px solid red;
+  outline-offset:-3px;
+}
+.currencySelect:focus{
+  outline: 2px solid red;
+  outline-offset:-3px;
+}
+.currencySelect{
+    height: 40px;
+    width: 25%;
+     border:0;
+     font-size: 15px;
+     color: rgb(34, 34, 34);
+     position: absolute;
+}
+.arrows{
+   width: 55px;
+   margin: 0 auto;
+   cursor: pointer;
+}

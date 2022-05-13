@@ -1,0 +1,18 @@
+.moneyBackground{
+    background-image: url("../img/money.png");
+    height: 92vh;
+    opacity: 0.6;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.converterBackground{
+    width: 100%;
+    max-width: 550px;
+    height: 550px;
+    margin: 0 auto;
+    background-color: #FF6660;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+}
